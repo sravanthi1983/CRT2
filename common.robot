@@ -54,7 +54,3 @@ VerifyStage
     VerifyElement         //a[@title\="${text}" and @aria-checked\="${selected}"]
 
 
-NoData
-    Set Library Search Order                          QWeb                   QForce
-    VerifyNoText          ${data}                     timeout=3                        delay=2
-
