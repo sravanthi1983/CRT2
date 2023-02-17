@@ -80,6 +80,4 @@ Home
     [Documentation]     Set the application state to the shop home page.
     GoTo                https://qentinelqi.github.io/shop/
     
-TestCaseDeletelater
-     [Documentation]     Set the application state to the shop home page.
-      GoTo                https://qentinelqi.github.io/shop/      
+  
