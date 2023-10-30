@@ -6,8 +6,9 @@ Suite Teardown                End suite
 Test Template                 Entering A Lead With Data
 
 *** Test Cases ***
-Entering A Lead With Data with ${First Name} ${Last Name}    ${Phone}    ${Company}    ${Website}
-    [Tags]                    AllData
+MultiRecordTestCase  
+  [Tags]                      AllData
+  Entering A Lead With Data        ${First Name}               ${Last Name}      ${Phone}                    ${Company}    ${Website}
 
 *** Keywords ***
 Entering A Lead With Data
